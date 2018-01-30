@@ -1,0 +1,111 @@
+.chatContainerDiv {
+/*    width: 400px;*/
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+    transition: bottom 1.5s;
+}
+
+#chatContainerDivIdVisible {
+    bottom: 0px;
+}
+
+#chatContainerDivIdHidden {
+    bottom: -460px;
+}
+
+#chatTitle {
+    background-color: rgba(241, 79, 48, 1);
+    color: white;
+    font-size: 16pt;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding: 8px;
+    user-select: none;
+}
+
+#chatContent {
+    background-color: white;
+    height: 460px;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+#chatContentInner {
+    
+}
+
+#chatArrow {
+    height: 15px;
+    position: relative;
+    top: 7px;
+    user-select: none;
+}
+
+#chatArrow:hover {
+    cursor: pointer;
+}
+
+.chatBoxAnimation {
+    transition: height 1.5s;
+}
+
+#joinChatButton {
+    user-select: none;
+    height: 40px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#nameAndConfirmButton {
+    width: 90%;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.confirmNameRow {
+    margin-bottom: 20px;
+}
+
+#confirmNameButton {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+}
+
+#controls {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+#sendMsgButt {
+    height: 40px;
+}
+
+#msgInput {
+    height: 40px;
+    bottom: -2px;
+}
+

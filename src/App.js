@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import HeaderNavBar from './HeaderNavBar.js';
 import AboutUs from './AboutUs.js';
+import Chat from './Chat.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import mySocket from 'socket.io-client';
 
 class App extends Component {
     render() {
@@ -15,6 +17,10 @@ class App extends Component {
                             <AboutUs/>
                         </div>
             
+                </div>
+            
+                <div>
+                    <Chat/>
                 </div>
             </div>
         );
