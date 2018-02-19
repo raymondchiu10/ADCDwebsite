@@ -30,7 +30,7 @@ class App extends Component {
                 mode: 1
             });
             
-            this.sockets = mySocket("http://localhost:10001");
+            this.sockets = mySocket("https://adcd-socket.herokuapp.com:10001");
             this.sockets.emit("uname", this.state.myname);
             this.sockets.on("names", (data)=>{
                 this.setState({

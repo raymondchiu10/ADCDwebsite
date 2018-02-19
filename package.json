@@ -1,18 +1,27 @@
 {
-  "name": "coolproject",
-  "version": "0.1.0",
-  "private": true,
+  "name": "adcdwebsite",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0",
+    "react-scripts": "^1.1.0",
     "socket.io": "^2.0.4"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondchiu10/ADCDwebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymondchiu10/ADCDwebsite/issues"
+  },
+  "homepage": "https://github.com/raymondchiu10/ADCDwebsite#readme"
 }
