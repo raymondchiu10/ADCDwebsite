@@ -62,7 +62,7 @@ class Chat extends Component {
                 nameSubmitted: true
             });
             
-            this.sockets = mySocket("http://localhost:10001");
+            this.sockets = mySocket("https://adcd-socket.herokuapp.com/");
             this.sockets.emit("uname", this.state.username);
             this.sockets.on("names", (data)=>{
                 this.setState({

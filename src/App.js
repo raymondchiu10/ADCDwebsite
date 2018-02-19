@@ -11,7 +11,7 @@ class App extends Component {
             <div>
                 <HeaderNavBar/>
             
-                <div class="mainContentContainer">
+                <div className="mainContentContainer">
     
                         <div id="playerSelect">
                             <AboutUs/>
