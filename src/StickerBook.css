@@ -1,0 +1,41 @@
+body {
+}
+
+.display {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;    
+    margin: auto;
+    background-color: pink;
+    cursor: none;
+    z-index: -100;
+}
+
+.controls {
+    background-image: url("./assets/images/menuBar.png");
+    background-size: 100% 100%;
+    position: fixed;
+/*    min-width: 320px;*/
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+#myImg {
+    position: absolute;
+}
+
+.allImgs {
+    position: absolute
+}
+
+#stickerRoomButtonsContainer {
+    display: table;
+    margin: 0 auto;
+}
+
+.stickerRoomBtn {
+    margin: 10px;
+}
