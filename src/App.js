@@ -4,6 +4,7 @@ import AboutUs from './AboutUs.js';
 import Chat from './Chat.js';
 import Landing from './Landing.js';
 import StickerBook from './StickerBook.js';
+import DoorsOfDoom from './DoorsOfDoom.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import mySocket from 'socket.io-client';
 
@@ -27,6 +28,9 @@ class App extends Component {
             case "goingStickers":
                 updateThis = "stickerBook";
                 break;
+            case "goingDoorsOfDoom":
+                updateThis = "doorsOfDoom";
+                break;                
             default:
                 updateThis = "landing";
                 break;
@@ -48,6 +52,9 @@ class App extends Component {
                 break;
             case "stickerBook":
                 comp = <StickerBook/>;
+                break;
+            case "doorsOfDoom":
+                comp = <DoorsOfDoom/>;
                 break;
             default:
                 comp = <Landing/>;
