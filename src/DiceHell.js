@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import mySocket from "socket.io-client"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import DiceRoomButtons from "./comps/DiceRoomButtons";
 
 

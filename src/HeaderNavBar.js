@@ -31,6 +31,9 @@ class HeaderNavBar extends Component {
                     </div>
                     <div onClick={()=>this.handlePageChange("goingDoorsOfDoom")} className="navBarItem">
                         Doors of Doom
+                    </div>                    
+                    <div onClick={()=>this.handlePageChange("goingDiceHell")} className="navBarItem">
+                        Dice Hell
                     </div>
                 </div>
             </div>
