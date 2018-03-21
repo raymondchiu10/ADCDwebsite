@@ -24,7 +24,7 @@ class App extends Component {
     }
     
     componentDidMount(){
-        this.socket = mySocket("http://localhost:10001");
+        this.socket = mySocket("https://dicesocket.herokuapp.com/");
 
         this.socket.on("Diceuserjoined", (data)=>{
             console.log("made it to userjoined");
